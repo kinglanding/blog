@@ -72,3 +72,8 @@ deploy:
   repo: git@github.com:kinglanding/kinglanding.github.io.git
   branch: master
 
+# 支持 read more 的连接解析
+markdown:
+  render:
+    html: true
+
