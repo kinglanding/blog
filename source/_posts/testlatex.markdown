@@ -1,7 +1,9 @@
 ---
 title: Latex on hexo
 date: 2016-04-27 14:09:21
-title: [hexo math example]
+tags: 
+- hexo 
+- math example
 ---
 
 \begin{aligned}
