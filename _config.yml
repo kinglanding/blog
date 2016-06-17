@@ -4,7 +4,7 @@
 
 # Site
 title: 曾经渐行远，未免心戚戚
-subtitle: A blogging framework for hackers.
+#subtitle: A blogging framework for hackers.
 description:
 author: Aluen King Lee
 language:
@@ -12,7 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://aluenkinglee.com/
+url: http://kinglanding.github.io/
+#url: http://localhost:4000/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -77,3 +78,7 @@ markdown:
   render:
     html: true
 
+# 增加本地搜索
+search:
+  path: search.xml
+  field: post
