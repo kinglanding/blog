@@ -628,4 +628,10 @@ public class MethodInvoker<T> {
 
 ### 构造函数
 
+#### 构造类的实例
 
+创建实例有两类方法，`java.lang.reflect.Constructor.newInstance()`和`Class.newInstance()`.前者用的更多，因为：
+
+* `Class.newInstance()`只能调用无参构造函数，而`Constructor.newInstance()`可以调用任意构造函数。
+* `Class.newInstance()`会抛出构造函数所有的异常；而`Constructor.newInstance()`可以将这些异常打包成`InvocationTargetException`.
+* `Class.newInstance()`
