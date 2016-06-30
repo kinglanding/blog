@@ -82,3 +82,9 @@ markdown:
 search:
   path: search.xml
   field: post
+
+# 增加统计功能
+leancloud_visitors:
+  enable: true
+  app_id: ULm4LbKU9FYj6CxYtKYnvaeB-gzGzoHsz
+  app_key: TypHFu5f7mXg4U1N9RjFRo52
