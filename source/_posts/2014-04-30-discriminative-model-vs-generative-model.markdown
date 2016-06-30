@@ -3,7 +3,11 @@ layout: post
 title: "Discriminative Model Vs. Generative Model"
 date: 2014-04-30 17:17
 comments: true
-categories: 机器学习 Machine learning 整理
+tags: 
+- 机器学习
+- Machine Learning
+- 整理
+- 总结
 ---
 
 ## 判别模型和生成模型分析
@@ -32,11 +36,11 @@ categories: 机器学习 Machine learning 整理
 又可以称为条件模型，或条件概率模型。估计的是条件概率分布(conditional distribution)，即$$ p(class|context)$$。按照上文的记法就是$$P(y|x)$$
 利用正负例和分类标签，焦点在判别模型的边缘分布。目标函数直接对应于分类准确率。
 
-######主要特点：
+#### 主要特点：
 
 寻找不同类别之间的最优分类面，反映的是异类数据之间的差异。
 
-######优点:
+#### 优点:
 
 1.   分类边界更灵活，比使用纯概率方法或生产模型得到的更高级。
 
@@ -48,7 +52,7 @@ categories: 机器学习 Machine learning 整理
 
 5.   判别模型的性能比生成模型要简单，比较容易学习
 
-######缺点:
+#### 缺点:
 
 1. 不能反映训练数据本身的特性。能力有限，可以告诉你的是1还是2，但没有办法把整个场景描述出来。
 
@@ -70,7 +74,7 @@ categories: 机器学习 Machine learning 整理
 
 5. Conditional random fields(CRF): 目前最新提出的热门模型，从NLP领域产生的，正在向ASR和CV上发展。
 
-######主要应用：
+#### 主要应用：
 
 1. 图像文本分类
 
@@ -86,14 +90,14 @@ categories: 机器学习 Machine learning 整理
 
 如果观察到的数据是完全由生成模型所生成的，那么就可以拟合生成模型的参数，从而仅可能的增加数据相似度。但观测数据往往完全从生成模型得到，所以比较准确的方式是直接对条件密度函数建模，即使用分类或回归分析。
 
-######主要特点:
+#### 主要特点:
 
 1. 一般主要是对**后验概率**建模，从统计的角度表示数据的分布情况，能够反映同类数据本身的相似度
 
 2. 只关注自己的inclass本身（即点左下角区域内的概率），不关心到底判别边界在哪
 
 
-######优点:
+#### 优点:
 
 1. 模型可以通过增量学习得到（同意！）
 
@@ -111,7 +115,7 @@ categories: 机器学习 Machine learning 整理
 
 8. can tolerate significant intra-class variation of object appearance
 
-######缺点:
+#### 缺点:
 
 1. 学习和计算过程比较复杂
 
@@ -127,11 +131,11 @@ categories: 机器学习 Machine learning 整理
 
 5. Sigmoidal belief networks
 
-####两者之间的关系
+### 两者之间的关系
 
 **由生成模型可以得到判别模型，但由判别模型得不到生成模型。**
 
->>  参考
+>  参考
 
 http://prfans.com/forum/viewthread.php?tid=80
 

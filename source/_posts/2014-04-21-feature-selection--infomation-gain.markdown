@@ -3,7 +3,11 @@ layout: post
 title: "特征选择-信息增益算法"
 date: 2014-04-21 15:41
 comments: true
-categories: 特征选择 信息增益算法
+tags: 
+- 特征选择
+- feature selection
+- Machine Learning
+- 信息增益算法
 ---
 
 **信息增益**：特征 $A$ 对于训练数据集$D$的信息增益 $g\left( D,A \right)$,定义为集合 $D$ 的经验熵 $H\left( D \right)$ 与特征 $A$ 在给定条件下 $D$ 

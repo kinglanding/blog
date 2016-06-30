@@ -3,7 +3,8 @@ layout: post
 title: "C++的hashtable那些事"
 date: 2014-02-24 05:29
 comments: true
-categories: 
+tags: 
+- C++
 ---
 
 对于想知道hashtable原理的的人来说，多少对基本的数据结构和算法都有些了解，所以不再细说。
@@ -37,7 +38,7 @@ categories:
 
 综上所述，实现一个hashtable必须注意hash函数 和 比较函数的接口提供。
 
-#####hashtable迭代器的设计
+###  hashtable迭代器的设计
 
 首先明确我们的需求，定位有hash函数搞定，而找到该桶之后，只是需要顺着桶往下找就够了，所以迭代器是个前向迭代器，对应的接口有实值，键值，hash仿函数，提取仿函数，等于仿函数，还有空间配置器等。其他编写仿照一般的迭代器设计即可。
 
@@ -101,7 +102,7 @@ struct __hashtable_iterator
 
 
 
-#####hashtable的数据结构
+### hashtable的数据结构
 
 由于采用开链的冲突解决方法，由此看来只需要一个vector代替桶，链表来装载桶内的元素即可。
 

@@ -3,7 +3,10 @@ layout: post
 title: "链表排序"
 date: 2014-05-14 13:51
 comments: true
-categories: list java sort  algorithm
+tags: 
+- java
+- 算法
+- 链表
 ---
 
 链表不想数组那样是连续的即像数组那样随机访问，只能从前往后遍历。所以排序的方法只能是像插入排序，选择排序，和归并排序。

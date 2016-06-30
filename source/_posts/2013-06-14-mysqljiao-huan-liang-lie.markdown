@@ -3,7 +3,9 @@ layout: post
 title: "MySql交换两列"
 date: 2013-06-14 15:35
 comments: true
-categories: python mysql
+tags: 
+- python 
+- mysql
 ---
 
 事情的起因是这个发现数据库中出现了某两列数据正好颠倒了，大部分数据都是正常的，

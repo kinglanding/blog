@@ -3,7 +3,8 @@ layout: post
 title: "python中关于变量属性的迷惑"
 date: 2013-03-15 17:06
 comments: true
-categories: python
+tags: 
+- python 
 ---
 
 当初使用C++，java的时候，变量的属性（可访问性，scope这类的意思）如public，private，protected，static这类很好理解。
@@ -50,7 +51,7 @@ __main__.A <__main__.A instance at 0x01262AD0> <__main__.A instance at 0x013091C
 
 前两行的结果都很好理解，但是第三行，之前o2的值一直没有改变，o1的值改变，在A的值改变之后o2也随之改变了，这个时候….看上去，o2还是在引用A的值，但是在o2自己的值改变之后就不在去引用类的值了。
 
-#####由此可见：
+##### 由此可见：
 
 * 由类派生出来的实例在未操作之前，都是简单的引用类的那些值
 

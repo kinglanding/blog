@@ -3,7 +3,10 @@ layout: post
 title: "在不同PC上协同写作同一个Octopress博客"
 date: 2013-11-13 15:20
 comments: true
-categories: Octopress 协同写作 co-write
+tags: 
+- Octopress
+- 协同写作
+- co-write
 ---
 
 因为需要在不同的地方写博客，在加上之前错误的操作，所以有了这篇文章。

@@ -3,7 +3,9 @@ layout: post
 title: "Use MathJax in Octopress to Write beautiful LaTex"
 date: 2013-11-13 12:37
 comments: true
-categories: LaTex Octopress
+tags: 
+- LaTex
+- Octopress
 ---
 #### 首先看下$\LaTeX$的例子
 

@@ -3,7 +3,12 @@ layout: post
 title: "generative method"
 date: 2014-04-30 22:52
 comments: true
-categories: 机器学习 Machine learning 整理 生成学习
+tags: 
+- 机器学习
+- Machine Learning
+- 整理
+- 总结
+- 生成学习
 ---
 
 线性回归模型和logistic回归是判别模型，也就是根据特征值来求结果的概率。形式化表
@@ -45,9 +50,9 @@ Boltzmann Machine 等。
 
 上篇博客较为详细地介绍了两个模型
 
-###高斯判别分析（Gaussian discriminant analysis）
+### 高斯判别分析（Gaussian discriminant analysis）
 
-##### 多维正太分布
+#### 多维正太分布
 
 多变量正态分布描述的是n维随机变量的分布情况。所以这里的$$\mu $$变成了n维随机变量，$$\sigma $$也变成了
 矩阵$$\Sigma $$.记做$$N(\mu,\Sigma)$$.假设有 n 个随机变量$$X_1,X_2,\cdots ,X_n$$.所以显而易见，$$\mu $$的第i个分量是$$E(X_i),\Sigma_{ii}=Var(X_i),\Sigma_{ij}=Cov(X_i,X_j)$$.
@@ -58,7 +63,7 @@ $$
 p(x;\mu,\Sigma)=\frac { 1 }{ \left( 2\pi  \right) ^{ n/2 }\left| \Sigma  \right| ^{ 1/2 } } exp\left( -\frac { 1 }{ 2 } \left( x-\mu \right)^T \Sigma^{-1}{\left(x-\mu\right)} \right) 
 $$
 
-##### 模型分析与应用
+#### 模型分析与应用
 
 如果输入特征x连续型随机变量，那么可以使用高斯判别分析模型来确定$$p(x|y)$$。模型如下,先以二元分布即伯努利分布来说（因为前面的例子是二元的）:
 

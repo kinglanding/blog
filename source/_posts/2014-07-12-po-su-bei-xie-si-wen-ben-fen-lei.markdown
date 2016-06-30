@@ -3,7 +3,11 @@ layout: post
 title: "朴素贝叶斯文本分类"
 date: 2014-06-27 13:11
 comments: true
-categories: 机器学习 朴素贝叶斯 文本分类
+tags: 
+- 机器学习
+- 朴素贝叶斯
+- Machine Learning
+- 文本分类
 ---
 
 回顾朴素贝叶斯(NB)分类器:  

@@ -3,7 +3,10 @@ layout: post
 title: "virtualbox网络环境和登录"
 date: 2013-10-20 22:46
 comments: true
-categories: SDN virtualbox SSH
+tags: 
+- SDN 
+- virtualbox
+- SSH
 ---
 
 最近由于实验室需要研究SDN的一些东西，再此先来搭配下环境。

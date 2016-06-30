@@ -3,7 +3,9 @@ layout: post
 title: "install nox on debian-bug fixed"
 date: 2013-11-13 22:44
 comments: true
-categories: SDN nox
+tags: 
+- SDB
+- nox
 ---
 
 首先需要声明的一点是，到目前（2013/11）Nox在所有SDN控制器中不是最火的（相比Pox，floodlight），但是作为最先开发的一个SDN而言，还是有研究意义的。

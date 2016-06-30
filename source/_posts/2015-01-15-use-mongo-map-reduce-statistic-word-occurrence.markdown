@@ -3,7 +3,9 @@ layout: post
 title: "使用mongodb内置的mapreduce聚合函数统计词频"
 date: 2015-01-14 13:51
 comments: true
-categories: mongodb map-reduce
+tags: 
+- mongodb
+- map-reduce
 ---
 
 
@@ -197,7 +199,7 @@ db.taobao_id_count.find({"value":2})
 结果只有两个结果
 
 
->>Referrence
+> Referrence
 
 1. [write scripts for the mongo shell](http://docs.mongodb.org/manual/tutorial/write-scripts-for-the-mongo-shell/)
 

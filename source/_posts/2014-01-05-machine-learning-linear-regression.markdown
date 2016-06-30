@@ -3,7 +3,12 @@ layout: post
 title: "Machine Learning :linear regression"
 date: 2014-01-05 12:00
 comments: true
-categories: C++ Armadillo Machine-Learning octave linear-regression
+tags: 
+- Armadillo
+- linear-regression
+- octave
+- C++
+- Machine Learning
 ---
 
 机器学习中，总体来说是分为两类问题：
@@ -22,7 +27,7 @@ categories: C++ Armadillo Machine-Learning octave linear-regression
 接下来的文章，大概是对Andrew Ng视频的一个简单的总结，会结合变成实例（octave和C++）来插叙。
 <!--more-->
 
-###线性回归
+### 线性回归
 
 好吧，先从一个简单的例子讲起，假设我们要为一个房子售价做个数学模型，价格和什么有关系？当然因素很多，比如房间的大小，离商业区的距离，嗯，房子几坪，奥，看起来不是
 个简单事儿～，那好吧，遵循我们先从最简单做起的原则，现假设相同尺寸的房子价格和城市人口多少有关系，其他的先抛到一边去，我喜欢做甩手掌柜==
@@ -34,7 +39,7 @@ categories: C++ Armadillo Machine-Learning octave linear-regression
 
 在那之前，先让我们约定几个问题，恩恩：
 
-#####注释
+### 注释
 * $m$ ：是训练实例的个数
 * $x$ ：是输入的特征向量,很有可能是这样子：$x=(x_1,...,x_k)$
 * $y$ ：是输出结果
@@ -85,7 +90,7 @@ E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95)在此就不罗嗦了。Andrew
 Ng在视频中讲的很形象，只要我们沿着山最陡的方向向下走，就会有可能找到最小值，翻译成数学语言就是沿着梯度相反的方向$- \nabla F(x)$,
 就可以下降最快。（我们不是要找最小值么，当然是水往低处流！所以就是负值了）
 
-####梯度下降法
+### 梯度下降法
 
 选定了回归模型，那就要确定参数$\Theta$了，$\Theta$只有在$J{(\Theta)}
 $最小的情况下才能确定，所以问题归结为了求极小值的问题，梯度下降法是个不错的选择。当然，它会遇到找到的值只是个局部最小值。

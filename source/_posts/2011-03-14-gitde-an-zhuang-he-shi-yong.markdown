@@ -3,7 +3,8 @@ layout: post
 title: "git的安装和使用"
 date: 2011-03-14 15:11
 comments: true
-categories: git  
+tags: 
+- git 
 ---
 
 git之前一直使用的，但是n久没用居然忘记怎么使用了。。。中途使用过程中居然还出现了
@@ -27,7 +28,7 @@ ssh-keygen
 
 接着拷贝.ssh/id_rsa.pub文件内的所以内容，将它粘帖到github帐号管理中的添加SSH key界面中。
 
-######打开github帐号管理中的添加SSH key界面的步骤如下
+###### 打开github帐号管理中的添加SSH key界面的步骤如下
 
 * 登录github
 
@@ -40,7 +41,7 @@ ssh-keygen
 在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可，然后将上面拷贝的~/.ssh/id_rsa.pub文件内容粘帖到key一栏，
 在点击“add key”按钮就可以了。添加过程github会提示你输入一次你的github密码。
 
-###git 配置
+### git 配置
 
 git有三个配置文件，分别是`repo/.git/config`,`$HOME/.gitconfig`,`/etc/gitconfig`.
 
@@ -58,7 +59,7 @@ git config –list 可以查看当前的git配置列表
 
 建议都配置明确的user.name 和 user.email信息。
 
-#####可以通过下面的命令进行配置
+可以通过下面的命令进行配置
 
 ```bash
 git config user.name xxx
@@ -69,7 +70,7 @@ git config user.email xxx@xxx.com
 
 这个准备工作算是完成了，其他的，就参考别人写得。在这不再写了。
 
->> 参考
+> 参考
 
 1. [说明很详细](http://blog.sina.com.cn/s/blog_55465b470100s63h.html )
 

@@ -3,7 +3,11 @@ layout: post
 title: "“奇异”的内存覆盖"
 date: 2014-03-04 22:01
 comments: true
-categories: C++ libpcap new[] 内存覆盖
+tags: 
+- C++
+- new[]
+- 内存覆盖
+- libpcap
 ---
 
 犯了一个愚蠢的问题，让我碰到了这么个内容错误的bug
@@ -142,8 +146,7 @@ windows是win7 + mingw）
 
 * 使用new[]分配内存的，必须使用delete[] 来释放掉内存。否则只是释放掉了内存区域的第一个从而造成内存泄漏。
 
->> 参考
+> 参考
 
-* ['** glibc detected *** ./main: free(): invalid next size (fast):'](http://stackoverflow.com/questions/18389313/glibc-detected-main-free-invalid-next-size-fast)
-
-* ['好好使用memcpy'](http://www.cplusplus.com/reference/cstring/memcpy/?kw=memcpy)
+1. ['** glibc detected *** ./main: free(): invalid next size (fast):'](http://stackoverflow.com/questions/18389313/glibc-detected-main-free-invalid-next-size-fast)
+2. ['好好使用memcpy'](http://www.cplusplus.com/reference/cstring/memcpy/?kw=memcpy)

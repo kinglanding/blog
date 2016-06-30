@@ -3,7 +3,8 @@ layout: post
 title: "近期总结"
 date: 2013-04-17 17:13
 comments: true
-categories: 总结
+tags: 
+- 总结
 ---
 
 

@@ -3,7 +3,9 @@ layout: post
 title: "Python处理带有时区的的字符串"
 date: 2013-04-16 15:54
 comments: true
-categories: python 时间格式
+tags: 
+- python 
+- 时间格式
 ---
 
 最近在处理一些微博的数据，其中从服务器返回来的json串最后转换成了python中的字典，

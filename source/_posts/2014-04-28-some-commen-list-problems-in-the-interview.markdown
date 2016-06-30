@@ -3,7 +3,10 @@ layout: post
 title: "some commen list problems in the interview"
 date: 2014-04-28 21:54
 comments: true
-categories: interview list 面试 链表
+tags: 
+- list
+- 面试
+- 链表
 ---
 
 链表是最基本的数据结构，面试官也常常用链表来考察面试者的基本能力，而且链表相关的操作相对而言比较简单，也适合考察写代码的能力。链表的操作也离不开指针，指针又很容易导致出错。综合多方面的原因，链表题目在面试中占据着很重要的地位。本文对链表相关的面试题做了较为全面的整理，希望能对找工作的同学有所帮助。

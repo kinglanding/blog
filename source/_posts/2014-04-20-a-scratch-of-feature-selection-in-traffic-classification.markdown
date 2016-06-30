@@ -3,7 +3,10 @@ layout: post
 title: "a scratch of feature selection in traffic classification"
 date: 2014-04-20 21:02
 comments: true
-categories: 特征选择 机器学习
+tags: 
+- 特征选择
+- feature selection
+- Machine Learning
 ---
 
 特征选取在减轻识别流量监测方面起着很重要的作用。该方法可以显著提高计算流量分类的性能。但是，大部分的特征不能应用在实时在线的流量分类中（有些特征只能在获取完整个流量才能得到，比如传输的数据大小，流的传输时长等）。所以在抉择分类的时候，需要一个优化过的特征集合在更短的时间内完成流量的分类。另外一种方案就是使用新型的网络架构如SDN/OpenFlow在目前已有的特征选择方法中，Chi-squared, Fuzzy-rough and Consistency-based的特征选择方法最适合P2P流量选择（那现在的手机端流量分析怎么样？）这些算法在使用ML进行在线P2P检测时会给出较好的特征子集。
@@ -21,7 +24,7 @@ categories: 特征选择 机器学习
 核心思想是使用监督方法对有标记的数据集进行分类时，对特征集合进行规约，减少特征集的大小。
 
 
-######使用信息熵增益算法对特征进行降纬
+### 使用信息熵增益算法对特征进行降纬
 
 实验前,[信息熵增益算法](http://www.aluenkinglee.com/blog/2014/04/21/feature-selection--infomation-gain/)
 
@@ -120,7 +123,7 @@ Ranked attributes:
 
 效果非常吻合。
 
-###### 使用PCA对特征集规约
+### 使用PCA对特征集规约
 
 这个使用weka的来做的，做出来之后有12个特征（都是原有特征的线性组合）
 
@@ -146,7 +149,7 @@ Attributes:   12
 
 分析，由于降维特征减少太多，走势已经不太吻合。
 
-###### 卡方分布提取特征算法
+### 卡方分布提取特征算法
 
 对于这个算法，这里只给出特征选取的结果
 
@@ -194,7 +197,7 @@ Kmeans实验和实验1一样
 
 最终选取的特征集合为23个
 
-#### 参考
+## 参考
 
 [1]. Jamil, H.A., et al., Selection of On-line Features for Peer-to-Peer Network Traffic Classification, in Recent Advances in Intelligent Informatics. 2014, Springer. p. 379-390.
 

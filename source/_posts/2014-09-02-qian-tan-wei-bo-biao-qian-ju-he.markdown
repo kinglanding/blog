@@ -3,7 +3,11 @@ layout: post
 title: "浅谈微博标签聚合"
 date: 2014-09-02 00:47
 comments: true
-categories: 机器学习 微博标签 层次聚类
+tags: 
+- 机器学习
+- 微博标签
+- 层次聚类
+- Machine Learning
 ---
 
 标注问题在机器学习中是一个监督学习的问题，当然在这里我们所要面对是微博中用户给自己添加标签的

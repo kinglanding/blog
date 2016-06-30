@@ -3,7 +3,12 @@ layout: post
 title: "use svm to classify whether a person is good or bad on credit using sns data"
 date: 2014-07-12 17:21
 comments: true
-categories: 机器学习 svm 金融信用 libsvm
+tags: 
+- 机器学习
+- SVM
+- Machine Learning
+- 金融信用
+- libsvm
 ---
 
 首先说明这只是一个思路方向性的大概说明介绍，更多关于业务方面的内容不方便介绍。

@@ -3,7 +3,8 @@ layout: post
 title: "Python中得一些重要的细节"
 date: 2013-03-15 16:17
 comments: true
-categories: python
+tags: 
+- python 
 ---
 
 字符串可以被下表索引，和C一样，第一个字符同样是0。
@@ -27,13 +28,13 @@ TypeError: 'str' object does not support item assignment
 
 python中一些iterable types（具体术语不知道怎么称呼）是分成可以`immutable`和`mutable`的：
 
-#####可更改的（`mutable`）:
+##### 可更改的（`mutable`）:
 
 * 字典型(dictionary)
 
 * 列表型(list)
 
-#####不可更改（mutable）：
+##### 不可更改（mutable）：
 
 * 元组（tuple)
 

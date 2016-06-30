@@ -3,7 +3,10 @@ layout: post
 title: "我对KMP算法的理解"
 date: 2014-05-19 22:56
 comments: true
-categories: KMP 数据结构 动态规划
+tags: 
+- 数据结构
+- 动态规划
+- KMP
 ---
 
 
@@ -13,7 +16,7 @@ categories: KMP 数据结构 动态规划
 
 定义要搜索的字符串模式是$$P$$,搜索的源是文本$$T$$.那让我们看看next数组怎么诞生的。
 
-####局部匹配表
+#### 局部匹配表
 
 理解KMP算法的关键就是**局部匹配表**,或者形象的称作为**next数组**，
 [算法导论](http://book.douban.com/subject/1885170/)p571页详细的描述了推导的过程，并给出了证明。但是仍然还是晦涩难懂的。
@@ -67,7 +70,7 @@ $$
 "ababaca"的真前缀为[a,ab,aba,abab,ababa,ababac],真后缀为[babaca,abaca,baca,aca,ca,a],next[5]=1;
 ```
 
-####如何使用
+#### 如何使用
 
 见上面的例子吧，很好理解不是。
 

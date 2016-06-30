@@ -3,7 +3,12 @@ layout: post
 title: "伪匹配"
 date: 2014-07-09 17:13
 comments: true
-categories: 数据挖掘，网页分析， jsoup
+tags: 
+- 机器学习
+- 数据挖掘
+- Machine Learning
+- 网页分析
+- jsoup
 ---
 
 这里提到的伪匹配的概念是指在网上搜索某些特征词，比如人名公司手机QQ号等内容时，网页反馈的结果：重要关键词在人看来是逻辑没有关联的时候就是伪匹配。
@@ -114,7 +119,8 @@ plot(x2,y2,'bo','MarkerSize',10);
 
 ![间隔分布图](https://raw.githubusercontent.com/aluenkinglee/aluenkinglee.github.io/source/source/images/2014-07-09-wei-pi-pei/false%20match2.png "间隔分布图")
 
-文本长度的数据（取一个网页中搜索词之间距离的最小值）为`4 13 25 58 89 102 249 893 1356 2000 2445 3023 4243 12533 13234`
+文本长度的数据（取一个网页中搜索词之间距离的最小值）为`4 13 25 58 89 102 249 893 1356 2000 2445 3023 4243 12533 13234
+`
 ,从这个可以看出，距离很大的肯定就是伪匹配了，最小值的这个不确定。
 
 完整代码请看[这里](https://github.com/aluenkinglee/stuff/tree/master/java/match)
